@@ -8,7 +8,11 @@
 */
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-
+let outcome = arr.forEach(num => num % 3 === 0 ? console.log('Fizz')
+  : num % 5 === 0 ? console.log("Buzz")//Ternary operator link https://medium.com/javascript-in-plain-english/what-does-the-question-mark-mean-in-javascript-code-353cfadcf760
+  : num % 3 === 0 ? console.log("Fizz")//Ternary Operator link https://medium.com/javascript-in-plain-english/what-does-the-question-mark-mean-in-javascript-code-353cfadcf760
+  : console.log(num));
+console.log(outcome);
 /* EXPECTED OUTPUT */
 
 /*

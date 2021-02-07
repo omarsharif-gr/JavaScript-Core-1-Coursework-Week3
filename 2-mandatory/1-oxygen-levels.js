@@ -11,7 +11,10 @@
     Some string methods that might help you here are .replace() and .substring(). 
 */
 
-function safeLevels() {}
+function safeLevels(array) {
+  let findSafeLevel = array.find(array => (array.replace("%", "") > 19.5 && array.replace("%", "") < 23.5));
+  return findSafeLevel;
+}
 
 /* ======= TESTS - DO NOT MODIFY ===== */
 

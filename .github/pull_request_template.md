@@ -12,11 +12,11 @@ London Class 7 - Chris Owen - HTML/CSS - Week 1
 
 # Your Details
 
-- Your Name:
-- Your City:
-- Your Slack Name:
+- Your Name: Omar
+- Your City: Sharif
+- Your Slack Name: Omar Sharif
 
 # Homework Details
 
-- Module:
-- Week:
+- Module: JavaScript
+- Week: 3

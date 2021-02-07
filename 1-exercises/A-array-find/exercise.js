@@ -4,7 +4,6 @@
 */
 
 // write your code here
-
 var names = [
   "Rakesh",
   "Antonio",
@@ -17,7 +16,9 @@ var names = [
   "Ahmed",
 ];
 
-var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+// var longNameThatStartsWithA = findLongNameThatStartsWithA(names);
+var longNameThatStartsWithA = names.find(findLongNameThatStartsWithA => findLongNameThatStartsWithA[0] === "A" && findLongNameThatStartsWithA.length > 7)
+//You are putting names into the longerSevenStartsA function and you are using the .find() method to check if any values in the array meet the conditions stated.
 
 console.log(longNameThatStartsWithA);
 
